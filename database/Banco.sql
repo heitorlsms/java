@@ -1,4 +1,3 @@
-/*@author Carlos Santos*/
 DROP DATABASE IF EXISTS Restaurante;
 
 CREATE DATABASE Restaurante;
