@@ -289,3 +289,9 @@ INSERT INTO Entregas (Endereco, ID_pedido, Data_entrega) VALUES
 ('Rua H, 505', 8, '2023-04-08 20:00:00'),
 ('Rua I, 606', 9, '2023-04-09 21:00:00'),
 ('Rua J, 707', 10, '2023-04-10 22:00:00');
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+GRANT PROXY ON ''@'%' TO 'root'@'localhost' WITH GRANT OPTION;
+
