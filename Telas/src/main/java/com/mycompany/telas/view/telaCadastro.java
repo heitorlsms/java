@@ -1,23 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-package com.mycompany.talas;
+package com.mycompany.telas.view;
 
+import com.mycompany.telas.view.telaLogin;
 import javax.swing.JFormattedTextField;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-
 /**
  *
- * @author CAMARGO
+ * @author Carlos Santos
  */
-public class Cadastro extends javax.swing.JFrame {
+public class telaCadastro extends javax.swing.JFrame {
 
     /**
      * Creates new form Cadastro
      */
-    public Cadastro() {
+    public telaCadastro() {
         initComponents();
     }
 
@@ -144,9 +140,7 @@ public class Cadastro extends javax.swing.JFrame {
         jButton2.setText("jButton2");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(600, 400));
         setMinimumSize(new java.awt.Dimension(600, 400));
-        setPreferredSize(new java.awt.Dimension(600, 400));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setText("Nome:");
@@ -377,7 +371,7 @@ public class Cadastro extends javax.swing.JFrame {
     }//GEN-LAST:event_btnExitActionPerformed
 
     private void btnSignInActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSignInActionPerformed
-        Login telaLogin = new Login();
+        telaLogin telaLogin = new telaLogin();
         telaLogin.setVisible(true);
     }//GEN-LAST:event_btnSignInActionPerformed
 
@@ -411,7 +405,7 @@ public class Cadastro extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Cadastro().setVisible(true);
+                new telaCadastro().setVisible(true);
             }
         });
     }
