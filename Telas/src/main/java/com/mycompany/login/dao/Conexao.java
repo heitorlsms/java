@@ -14,7 +14,7 @@ public class Conexao {
         Connection conecta = null;
         
         try {
-            String url = "  ";
+            String url = "";
             
         } cacth (Exception erro) {
             JOptionPane.showMessageDialog(parentComponent, erro.getMessage());
