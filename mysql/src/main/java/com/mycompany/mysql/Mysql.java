@@ -16,7 +16,8 @@ public class Mysql {
             conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/Restaurante", "root", "");
 
 
-            ResultSet rsCliente = conexao.createStatement().executeQuery("SELECT * FROM Clientes");
+            ResultSet rsCliente = conexao.createStatement().executeQuery("SELECT * FROM Usuarios");
+
             
             while (rsCliente.next()) {
                 System.out.println("ID_cliente: " + rsCliente.getInt("ID_cliente"));
